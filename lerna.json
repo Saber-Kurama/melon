@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "exact": true
+    }
+  },
+  "version": "independent"
+}
