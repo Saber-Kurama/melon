@@ -1,7 +1,16 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "changelog": {
+    "labels": {
+      "pr(enhancement)": ":rocket: Enhancement",
+      "pr(bug)": ":bug: Bug Fix",
+      "pr(documentation)": ":book: Documentation",
+      "pr(dependency)": ":deciduous_tree: Dependency",
+      "pr(chore)": ":turtle: Chore"
+    },
+    "repo": "Saber-Kurama/melon",
+    "cacheDir": ".changelog"
+  },
+  "packages": ["packages/*"],
   "command": {
     "version": {
       "exact": true
